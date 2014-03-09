@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 2a381d4ecdacffb4d9a4a086f3d2a96e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PlayerRig:brasLeft1
+    100004: PlayerRig:brasLeft2
+    100006: PlayerRig:brasLeftEnd
+    100008: PlayerRig:brasRight1
+    100010: PlayerRig:brasRight2
+    100012: PlayerRig:brasRightEnd
+    100014: PlayerRig:FingerLeft11
+    100016: PlayerRig:FingerLeft12
+    100018: PlayerRig:FingerLeft1End
+    100020: PlayerRig:FingerLeft21
+    100022: PlayerRig:FingerLeft22
+    100024: PlayerRig:FingerLeft2End
+    100026: PlayerRig:FingerRight11
+    100028: PlayerRig:FingerRight12
+    100030: PlayerRig:FingerRight1End
+    100032: PlayerRig:FingerRight21
+    100034: PlayerRig:FingerRight22
+    100036: PlayerRig:FingerRight2End
+    100038: PlayerRig:FingerThumbLeft1
+    100040: PlayerRig:FingerThumbLeft2
+    100042: PlayerRig:FingerThumbLeftEnd
+    100044: PlayerRig:FingerThumbRight1
+    100046: PlayerRig:FingerThumbRight2
+    100048: PlayerRig:FingerThumbRightEnd
+    100050: PlayerRig:FootLeft
+    100052: PlayerRig:FootLeftEnd
+    100054: PlayerRig:FootRight
+    100056: PlayerRig:FootRightEnd
+    100058: PlayerRig:group1
+    100060: PlayerRig:group2
+    100062: PlayerRig:group3
+    100064: PlayerRig:group4
+    100066: PlayerRig:group5
+    100068: PlayerRig:group6
+    100070: PlayerRig:grpBrasLeft
+    100072: PlayerRig:grpBrasRight
+    100074: PlayerRig:grpFingerLeft1
+    100076: PlayerRig:grpFingerLeft2
+    100078: PlayerRig:grpFingerRight1
+    100080: PlayerRig:grpFingerRight2
+    100082: PlayerRig:grpFingerThumbLeft
+    100084: PlayerRig:grpFingerThumbRight
+    100086: PlayerRig:grpFootLeft
+    100088: PlayerRig:grpFootRight
+    100090: PlayerRig:grpHandLeft
+    100092: PlayerRig:grpHandRight
+    100094: PlayerRig:GrpHead
+    100096: PlayerRig:grpLeftLeg
+    100098: PlayerRig:grpPetitBrasBasLeft
+    100100: PlayerRig:grpPetitBrasBasRight
+    100102: PlayerRig:grpPetitBrasHautLeft
+    100104: PlayerRig:grpPetitBrasHautRight
+    100106: PlayerRig:grpPetitBrasLeft
+    100108: PlayerRig:grpPetitBrasRight
+    100110: PlayerRig:grpRightLeg
+    100112: PlayerRig:GrpSpine
+    100114: PlayerRig:Head
+    100116: PlayerRig:HeadEnd
+    100118: PlayerRig:ikHandle1
+    100120: PlayerRig:ikHandle2
+    100122: PlayerRig:ikHandle3
+    100124: PlayerRig:ikHandle4
+    100126: PlayerRig:LegLeft1
+    100128: PlayerRig:LegLeft2
+    100130: PlayerRig:LegLeftEnd
+    100132: PlayerRig:LegRight1
+    100134: PlayerRig:LegRight2
+    100136: PlayerRig:LegRightEnd
+    100138: PlayerRig:master
+    100140: PlayerRig:meshLowRez
+    100142: PlayerRig:PetitBrasBasLeft1
+    100144: PlayerRig:PetitBrasBasLeft2
+    100146: PlayerRig:PetitBrasBasLeftEnd
+    100148: PlayerRig:PetitBrasBasRight1
+    100150: PlayerRig:PetitBrasBasRight2
+    100152: PlayerRig:PetitBrasBasRightEnd
+    100154: PlayerRig:PetitBrasHautLeft1
+    100156: PlayerRig:PetitBrasHautLeft2
+    100158: PlayerRig:PetitBrasHautLeftEnd
+    100160: PlayerRig:PetitBrasHautRight1
+    100162: PlayerRig:PetitBrasHautRight2
+    100164: PlayerRig:PetitBrasHautRightEnd
+    100166: PlayerRig:RIGsetup
+    100168: PlayerRig:slaveJoint
+    100170: PlayerRig:spine1
+    100172: PlayerRig:spine2
+    100174: PlayerRig:spineEnd
+    100176: PlayerRig:CONbassin
+    100178: PlayerRig:CONbrasLeft
+    100180: PlayerRig:CONbrasLeftPoleVector
+    100182: PlayerRig:CONbrasRight
+    100184: PlayerRig:CONbrasRightPoleVector
+    100186: PlayerRig:CONDos
+    100188: PlayerRig:CONfootLeft
+    100190: PlayerRig:CONfootRight
+    100192: PlayerRig:CONhead
+    100194: PlayerRig:CONlegLeftPoleVector
+    100196: PlayerRig:CONlegRightPoleVector
+    100198: PlayerRig:CONmaster
+    400000: //RootNode
+    400002: PlayerRig:brasLeft1
+    400004: PlayerRig:brasLeft2
+    400006: PlayerRig:brasLeftEnd
+    400008: PlayerRig:brasRight1
+    400010: PlayerRig:brasRight2
+    400012: PlayerRig:brasRightEnd
+    400014: PlayerRig:FingerLeft11
+    400016: PlayerRig:FingerLeft12
+    400018: PlayerRig:FingerLeft1End
+    400020: PlayerRig:FingerLeft21
+    400022: PlayerRig:FingerLeft22
+    400024: PlayerRig:FingerLeft2End
+    400026: PlayerRig:FingerRight11
+    400028: PlayerRig:FingerRight12
+    400030: PlayerRig:FingerRight1End
+    400032: PlayerRig:FingerRight21
+    400034: PlayerRig:FingerRight22
+    400036: PlayerRig:FingerRight2End
+    400038: PlayerRig:FingerThumbLeft1
+    400040: PlayerRig:FingerThumbLeft2
+    400042: PlayerRig:FingerThumbLeftEnd
+    400044: PlayerRig:FingerThumbRight1
+    400046: PlayerRig:FingerThumbRight2
+    400048: PlayerRig:FingerThumbRightEnd
+    400050: PlayerRig:FootLeft
+    400052: PlayerRig:FootLeftEnd
+    400054: PlayerRig:FootRight
+    400056: PlayerRig:FootRightEnd
+    400058: PlayerRig:group1
+    400060: PlayerRig:group2
+    400062: PlayerRig:group3
+    400064: PlayerRig:group4
+    400066: PlayerRig:group5
+    400068: PlayerRig:group6
+    400070: PlayerRig:grpBrasLeft
+    400072: PlayerRig:grpBrasRight
+    400074: PlayerRig:grpFingerLeft1
+    400076: PlayerRig:grpFingerLeft2
+    400078: PlayerRig:grpFingerRight1
+    400080: PlayerRig:grpFingerRight2
+    400082: PlayerRig:grpFingerThumbLeft
+    400084: PlayerRig:grpFingerThumbRight
+    400086: PlayerRig:grpFootLeft
+    400088: PlayerRig:grpFootRight
+    400090: PlayerRig:grpHandLeft
+    400092: PlayerRig:grpHandRight
+    400094: PlayerRig:GrpHead
+    400096: PlayerRig:grpLeftLeg
+    400098: PlayerRig:grpPetitBrasBasLeft
+    400100: PlayerRig:grpPetitBrasBasRight
+    400102: PlayerRig:grpPetitBrasHautLeft
+    400104: PlayerRig:grpPetitBrasHautRight
+    400106: PlayerRig:grpPetitBrasLeft
+    400108: PlayerRig:grpPetitBrasRight
+    400110: PlayerRig:grpRightLeg
+    400112: PlayerRig:GrpSpine
+    400114: PlayerRig:Head
+    400116: PlayerRig:HeadEnd
+    400118: PlayerRig:ikHandle1
+    400120: PlayerRig:ikHandle2
+    400122: PlayerRig:ikHandle3
+    400124: PlayerRig:ikHandle4
+    400126: PlayerRig:LegLeft1
+    400128: PlayerRig:LegLeft2
+    400130: PlayerRig:LegLeftEnd
+    400132: PlayerRig:LegRight1
+    400134: PlayerRig:LegRight2
+    400136: PlayerRig:LegRightEnd
+    400138: PlayerRig:master
+    400140: PlayerRig:meshLowRez
+    400142: PlayerRig:PetitBrasBasLeft1
+    400144: PlayerRig:PetitBrasBasLeft2
+    400146: PlayerRig:PetitBrasBasLeftEnd
+    400148: PlayerRig:PetitBrasBasRight1
+    400150: PlayerRig:PetitBrasBasRight2
+    400152: PlayerRig:PetitBrasBasRightEnd
+    400154: PlayerRig:PetitBrasHautLeft1
+    400156: PlayerRig:PetitBrasHautLeft2
+    400158: PlayerRig:PetitBrasHautLeftEnd
+    400160: PlayerRig:PetitBrasHautRight1
+    400162: PlayerRig:PetitBrasHautRight2
+    400164: PlayerRig:PetitBrasHautRightEnd
+    400166: PlayerRig:RIGsetup
+    400168: PlayerRig:slaveJoint
+    400170: PlayerRig:spine1
+    400172: PlayerRig:spine2
+    400174: PlayerRig:spineEnd
+    400176: PlayerRig:CONbassin
+    400178: PlayerRig:CONbrasLeft
+    400180: PlayerRig:CONbrasLeftPoleVector
+    400182: PlayerRig:CONbrasRight
+    400184: PlayerRig:CONbrasRightPoleVector
+    400186: PlayerRig:CONDos
+    400188: PlayerRig:CONfootLeft
+    400190: PlayerRig:CONfootRight
+    400192: PlayerRig:CONhead
+    400194: PlayerRig:CONlegLeftPoleVector
+    400196: PlayerRig:CONlegRightPoleVector
+    400198: PlayerRig:CONmaster
+    2300000: PlayerRig:meshLowRez
+    3300000: PlayerRig:meshLowRez
+    4300000: PlayerRig:meshLowRez
+    7400000: idle
+    7400002: run
+    7400004: knockDown
+    9500000: //RootNode
+    13700000: PlayerRig:meshLowRez
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PlayerRig:RIGsetup
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbassin
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbassin/PlayerRig:CONDos
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbassin/PlayerRig:CONDos/PlayerRig:CONhead
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasLeftPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasRightPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONfootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONfootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONlegLeftPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONlegRightPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:FootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:FootLeft/PlayerRig:FootLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:ikHandle2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:FootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:FootRight/PlayerRig:FootRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:ikHandle1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandLeft/PlayerRig:ikHandle4
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandRight/PlayerRig:ikHandle3
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1/PlayerRig:LegLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1/PlayerRig:LegLeft2/PlayerRig:LegLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1/PlayerRig:LegRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1/PlayerRig:LegRight2/PlayerRig:LegRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1/PlayerRig:PetitBrasBasLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1/PlayerRig:PetitBrasBasLeft2/PlayerRig:PetitBrasBasLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1/PlayerRig:PetitBrasBasRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1/PlayerRig:PetitBrasBasRight2/PlayerRig:PetitBrasBasRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:brasRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11/PlayerRig:FingerRight12
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11/PlayerRig:FingerRight12/PlayerRig:FingerRight1End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21/PlayerRig:FingerRight22
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21/PlayerRig:FingerRight22/PlayerRig:FingerRight2End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1/PlayerRig:FingerThumbRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1/PlayerRig:FingerThumbRight2/PlayerRig:FingerThumbRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:brasLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11/PlayerRig:FingerLeft12
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11/PlayerRig:FingerLeft12/PlayerRig:FingerLeft1End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21/PlayerRig:FingerLeft22
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21/PlayerRig:FingerLeft22/PlayerRig:FingerLeft2End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1/PlayerRig:FingerThumbLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1/PlayerRig:FingerThumbLeft2/PlayerRig:FingerThumbLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1/PlayerRig:PetitBrasHautRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1/PlayerRig:PetitBrasHautRight2/PlayerRig:PetitBrasHautRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1/PlayerRig:PetitBrasHautLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1/PlayerRig:PetitBrasHautLeft2/PlayerRig:PetitBrasHautLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead/PlayerRig:Head
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead/PlayerRig:Head/PlayerRig:HeadEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:spineEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:slaveJoint
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:meshLowRez
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: run
+      takeName: Take 001
+      firstFrame: 48
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PlayerRig:RIGsetup
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbassin
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbassin/PlayerRig:CONDos
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbassin/PlayerRig:CONDos/PlayerRig:CONhead
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasLeftPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONbrasRightPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONfootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONfootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONlegLeftPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:CONmaster/PlayerRig:CONlegRightPoleVector
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:FootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:FootLeft/PlayerRig:FootLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:ikHandle2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:FootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:FootRight/PlayerRig:FootRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:ikHandle1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandLeft/PlayerRig:ikHandle4
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpHandRight/PlayerRig:ikHandle3
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1/PlayerRig:LegLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1/PlayerRig:LegLeft2/PlayerRig:LegLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1/PlayerRig:LegRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1/PlayerRig:LegRight2/PlayerRig:LegRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1/PlayerRig:PetitBrasBasLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1/PlayerRig:PetitBrasBasLeft2/PlayerRig:PetitBrasBasLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1/PlayerRig:PetitBrasBasRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1/PlayerRig:PetitBrasBasRight2/PlayerRig:PetitBrasBasRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:brasRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11/PlayerRig:FingerRight12
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11/PlayerRig:FingerRight12/PlayerRig:FingerRight1End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21/PlayerRig:FingerRight22
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21/PlayerRig:FingerRight22/PlayerRig:FingerRight2End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1/PlayerRig:FingerThumbRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1/PlayerRig:FingerThumbRight2/PlayerRig:FingerThumbRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:brasLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11/PlayerRig:FingerLeft12
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11/PlayerRig:FingerLeft12/PlayerRig:FingerLeft1End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21/PlayerRig:FingerLeft22
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21/PlayerRig:FingerLeft22/PlayerRig:FingerLeft2End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1/PlayerRig:FingerThumbLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1/PlayerRig:FingerThumbLeft2/PlayerRig:FingerThumbLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1/PlayerRig:PetitBrasHautRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1/PlayerRig:PetitBrasHautRight2/PlayerRig:PetitBrasHautRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1/PlayerRig:PetitBrasHautLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1/PlayerRig:PetitBrasHautLeft2/PlayerRig:PetitBrasHautLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead/PlayerRig:Head
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead/PlayerRig:Head/PlayerRig:HeadEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:spineEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:slaveJoint
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:meshLowRez
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: knockDown
+      takeName: Take 001
+      firstFrame: 68
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: PlayerRig:RIGsetup
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:FootLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootLeft/PlayerRig:FootLeft/PlayerRig:FootLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:FootRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:grpFootRight/PlayerRig:FootRight/PlayerRig:FootRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1/PlayerRig:LegLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpLeftLeg/PlayerRig:LegLeft1/PlayerRig:LegLeft2/PlayerRig:LegLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1/PlayerRig:LegRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:grpRightLeg/PlayerRig:LegRight1/PlayerRig:LegRight2/PlayerRig:LegRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1/PlayerRig:PetitBrasBasLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasLeft/PlayerRig:grpPetitBrasBasLeft/PlayerRig:PetitBrasBasLeft1/PlayerRig:PetitBrasBasLeft2/PlayerRig:PetitBrasBasLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1/PlayerRig:PetitBrasBasRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:grpPetitBrasRight/PlayerRig:grpPetitBrasBasRight/PlayerRig:PetitBrasBasRight1/PlayerRig:PetitBrasBasRight2/PlayerRig:PetitBrasBasRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:brasRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11/PlayerRig:FingerRight12
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight1/PlayerRig:FingerRight11/PlayerRig:FingerRight12/PlayerRig:FingerRight1End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21/PlayerRig:FingerRight22
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerRight2/PlayerRig:FingerRight21/PlayerRig:FingerRight22/PlayerRig:FingerRight2End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1/PlayerRig:FingerThumbRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group1/PlayerRig:grpBrasRight/PlayerRig:brasRight1/PlayerRig:brasRight2/PlayerRig:group5/PlayerRig:grpFingerThumbRight/PlayerRig:FingerThumbRight1/PlayerRig:FingerThumbRight2/PlayerRig:FingerThumbRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:brasLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11/PlayerRig:FingerLeft12
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft1/PlayerRig:FingerLeft11/PlayerRig:FingerLeft12/PlayerRig:FingerLeft1End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21/PlayerRig:FingerLeft22
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerLeft2/PlayerRig:FingerLeft21/PlayerRig:FingerLeft22/PlayerRig:FingerLeft2End
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1/PlayerRig:FingerThumbLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group2/PlayerRig:grpBrasLeft/PlayerRig:brasLeft1/PlayerRig:brasLeft2/PlayerRig:group6/PlayerRig:grpFingerThumbLeft/PlayerRig:FingerThumbLeft1/PlayerRig:FingerThumbLeft2/PlayerRig:FingerThumbLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1/PlayerRig:PetitBrasHautRight2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group3/PlayerRig:grpPetitBrasHautRight/PlayerRig:PetitBrasHautRight1/PlayerRig:PetitBrasHautRight2/PlayerRig:PetitBrasHautRightEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1/PlayerRig:PetitBrasHautLeft2
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:group4/PlayerRig:grpPetitBrasHautLeft/PlayerRig:PetitBrasHautLeft1/PlayerRig:PetitBrasHautLeft2/PlayerRig:PetitBrasHautLeftEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead/PlayerRig:Head
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:GrpHead/PlayerRig:Head/PlayerRig:HeadEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:GrpSpine/PlayerRig:spine1/PlayerRig:spine2/PlayerRig:spineEnd
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:master/PlayerRig:slaveJoint
+        weight: 1
+      - path: PlayerRig:RIGsetup/PlayerRig:meshLowRez
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
